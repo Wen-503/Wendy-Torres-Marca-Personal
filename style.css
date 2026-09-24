@@ -436,3 +436,23 @@ body {
         font-size: 2.8rem;
     }
 }
+
+
+.logo-fijo {
+    position: fixed;        
+    top: 20px;              
+    right: 20px;            /* Distancia desde el borde derecho */
+    z-index: 9999;          
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.logo-fijo img {
+    width: 50px;            /* Tamaño del logo */
+    height: 50px;
+    object-fit: contain;
+}
+
+.logo-fijo:hover {
+    transform: scale(1.1);  /* Efecto visual al pasar el cursor */
+}
