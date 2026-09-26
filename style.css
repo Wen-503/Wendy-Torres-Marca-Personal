@@ -305,6 +305,9 @@ body {
 }
 
 
+
+
+
 /* logros y portafolio (grid comun) */
 .sec-logros,
 .sec-portfolio {
@@ -326,6 +329,12 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ffb400;
 }
 
 .img-card {
@@ -345,7 +354,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 3.5rem;
-    color: var(--primary-accent);
+    color: #ffb400;
 }
 
 .info-card {
@@ -356,7 +365,7 @@ body {
 }
 
 .cat {
-    color: var(--primary-accent);
+    color: #ffb400;
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -375,13 +384,36 @@ body {
     margin-bottom: 15px;
 }
 
-.btn-link {
-    color: var(--primary-accent);
+/* Enlaces de las tarjetas (solución al color morado) */
+.btn-link,
+.btn-link:visited,
+.info-card a,
+.info-card a:visited {
+    color: #ffb400 !important;
     text-decoration: none;
     font-weight: 700;
     font-size: 0.85rem;
     margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.3s ease;
 }
+
+.btn-link:hover,
+.info-card a:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* servicio social */
