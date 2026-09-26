@@ -410,7 +410,7 @@ body {
     text-decoration: underline;
 }
 
-/* Forzar el color anaranjado/dorado en TODOS los enlaces de las tarjetas */
+/* clor anaranjado/dorado en TODOS los enlaces de las tarjetas */
 .card a,
 .card a:link,
 .card a:visited,
@@ -448,15 +448,11 @@ body {
 
 
 
+/* SERVICIOOOO SOCIAAAL, OSEA EL VOLUNTARRIADO PUES */
 
 
 
 
-
-
-
-
-/* servicio social */
 .sec-servicio {
     padding: 80px 10% 80px 100px;
 }
