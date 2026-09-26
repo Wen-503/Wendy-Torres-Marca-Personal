@@ -410,6 +410,36 @@ body {
 
 
 
+/* Forzar el color anaranjado/dorado en TODOS los enlaces de las tarjetas */
+.card a,
+.card a:link,
+.card a:visited,
+.card-body a,
+.card-body a:visited,
+.link-ver,
+.link-ver:visited,
+.link-verr,
+.link-verr:visited {
+    color: #ffb400 !important;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    display: inline-block !important;
+    margin-top: 10px !important;
+}
+
+/* Efecto hover (al pasar el cursor) */
+.card a:hover,
+.card-body a:hover,
+.link-ver:hover,
+.link-verr:hover {
+    color: #ffffff !important;
+    text-decoration: underline !important;
+}
+
+
+
+
+
 
 
 
