@@ -384,6 +384,10 @@ body {
     margin-bottom: 15px;
 }
 
+
+
+
+
 /* Enlaces de las tarjetas (solución al color morado) */
 .btn-link,
 .btn-link:visited,
@@ -405,10 +409,6 @@ body {
     color: #ffffff !important;
     text-decoration: underline;
 }
-
-
-
-
 
 /* Forzar el color anaranjado/dorado en TODOS los enlaces de las tarjetas */
 .card a,
@@ -435,6 +435,16 @@ body {
     color: #ffffff !important;
     text-decoration: underline !important;
 }
+
+/* OCULTAR EL ÍCONO DE LA FLECHITA */
+.link-ver i,
+.link-verr i,
+.card a i {
+    display: none !important;
+}
+
+
+
 
 
 
